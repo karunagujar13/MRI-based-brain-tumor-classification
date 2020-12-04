@@ -11,3 +11,10 @@ Data can be downloaded from https://www.kaggle.com/sartajbhuvaji/brain-tumor-cla
 The downloaded data folder should be placed inside the current foleder (where the code files exist) and named “data”. Before the next step, make sure the folder structure is Code --> Data --> Training, Testing.
 Once the raw data is in place, go ahead and first run the jupyter file named “preprocessing.ipnyb”. This file will pre-process the data and automatically place the processed data folder (named “processed_data”) inside “data” folder.
 Now the data is ready to be used in the models.
+
+## Model
+I experimented with different models. Following are the detaisl of the model architectures that gave good results:
+1. final-Nasnet: Uses NASNetMobile base architecture. 
+2. final-Nasnet-balance-dataset: Model with clss weights to balance the dataset
+3. Inception: Uses Inception as the base mdoel.
+4. RESNet - USes Resnet50 as the base architecture.
