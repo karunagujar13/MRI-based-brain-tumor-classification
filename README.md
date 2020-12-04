@@ -12,9 +12,9 @@ The downloaded data folder should be placed inside the current foleder (where th
 Once the raw data is in place, go ahead and first run the jupyter file named “preprocessing.ipnyb”. This file will pre-process the data and automatically place the processed data folder (named “processed_data”) inside “data” folder.
 Now the data is ready to be used in the models.
 
-## Model
-I experimented with different models. Following are the detaisl of the model architectures that gave good results:
+## Models
+I experimented with different models. Following are the details of the model architectures showed better performance:
 1. final-Nasnet: Uses NASNetMobile base architecture. 
-2. final-Nasnet-balance-dataset: Model with clss weights to balance the dataset
+2. final-Nasnet-balance-dataset: Model with class weights to balance the dataset
 3. Inception: Uses Inception as the base mdoel.
-4. RESNet - USes Resnet50 as the base architecture.
+4. RESNet - Uses Resnet50 as the base architecture.
